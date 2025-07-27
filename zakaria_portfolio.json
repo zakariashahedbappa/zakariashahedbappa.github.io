@@ -1,0 +1,217 @@
+{
+  "name": "A.N.M Zakaria Shahed",
+  "title": "Senior Manager, Software Quality Assurance",
+  "location": "Dhaka, Bangladesh",
+  "email": "zsbappa.ju@gmail.com",
+  "phone": "+8801911690980",
+  "linkedin": "https://www.linkedin.com/in/zsbappa/",
+  "github": "https://github.com/zsbappa",
+  "stackoverflow": "https://stackoverflow.com/users/7822301/zsbappa",
+  "hackerone": "https://hackerone.com/zsbappa",
+  "profile_image": "/images/profile.jpg",
+  "summary": "A seasoned SQA professional with over 9 years of experience in manual testing, automation, and penetration testing. Currently working as a Senior Manager, leading a 40+ member QA team at TechnoNext (a sister concern of US-Bangla Airlines). Skilled in Selenium, Playwright, TestNG, Jenkins, SDLC/STLC, and bug bounty programs. ISTQB Certified and a published bug hunter on HackerOne.",
+  "experience": [
+    {
+      "company": "TechnoNext (Sister concern of US-Bangla Airlines)",
+      "role": "Senior Manager, SQA",
+      "period": "2025 \u2013 Present",
+      "responsibilities": [
+        "Leading and managing a QA team of over 40 members",
+        "Overseeing QA for platforms like Foodi, Cartup, and Firsttrip",
+        "Designing and implementing test automation frameworks using Selenium and Playwright",
+        "Guiding penetration testing team for secure application development",
+        "Enforcing best practices in SDLC and STLC"
+      ]
+    },
+    {
+      "company": "BJIT Group",
+      "role": "SQA Manager",
+      "period": "April 2021 \u2013 2025",
+      "responsibilities": [
+        "Developed CI/CD pipelines",
+        "Wrote and managed automation test scripts",
+        "Conducted regression and acceptance testing",
+        "Created QA strategy and managed releases"
+      ]
+    },
+    {
+      "company": "W3engineers",
+      "role": "QA Engineer \u2192 Lead SQA Engineer",
+      "period": "Jan 2017 \u2013 Mar 2021",
+      "responsibilities": [
+        "Led a QA team of 12 testers",
+        "Developed automation for 80+ major releases",
+        "Built Jenkins-based automation infrastructure",
+        "Conducted API automation, performance testing with Locust"
+      ]
+    },
+    {
+      "company": "Suguna Bangladesh Pvt Ltd",
+      "role": "Jr. QA Engineer",
+      "period": "Dec 2014 \u2013 Dec 2016",
+      "responsibilities": [
+        "Performed manual testing and led QA in SCRUM environments",
+        "Created documentation and test plans"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "ISTQB Certified Tester",
+      "source": "ASTQB",
+      "id": "21-CTFL-01786-USA"
+    },
+    {
+      "name": "Selenium WebDriver with Java",
+      "source": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-LJW5JCGQ/"
+    },
+    {
+      "name": "Software Testing and Test Plan Execution",
+      "source": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-1RPYQFLZ/"
+    },
+    {
+      "name": "Understanding Docker and Using It for Selenium Automation",
+      "source": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-K8R3VHKD/"
+    }
+  ],
+  "bug_bounty": {
+    "platforms": [
+      "https://hackerone.com/zsbappa"
+    ],
+    "badges": [
+      "Insecticide (First resolved report)",
+      "TrailBlazer (First to report vulnerability)",
+      "Patient (Waited 6+ months for resolution)",
+      "Bounty Hunter (First bounty received)",
+      "Publish or Perish (Public disclosure of vulnerability)"
+    ]
+  },
+  "technical_skills": [
+    "Selenium",
+    "Playwright",
+    "TestNG",
+    "Jenkins",
+    "Java",
+    "Python",
+    "REST-assured",
+    "Cucumber",
+    "ZAP",
+    "Docker",
+    "Linux",
+    "Git",
+    "Agile / Scrum",
+    "Locust"
+  ],
+  "projects": [
+    {
+      "name": "Yokogawa Workflow Mobile App",
+      "duration": "18 months",
+      "stack": "Java, IoT, ReactJS, Selenium",
+      "role": "Senior SQA Engineer"
+    },
+    {
+      "name": "OneProof BtoC Mall",
+      "duration": "8 months",
+      "stack": "PHP, Laravel",
+      "role": "Senior SQA Engineer"
+    },
+    {
+      "name": "Turnium",
+      "duration": "5 months",
+      "stack": "ReactJS",
+      "role": "QA Lead"
+    },
+    {
+      "name": "F2sfund",
+      "duration": "10 months",
+      "stack": "PHP, JavaScript",
+      "role": "QA Lead"
+    },
+    {
+      "name": "Rentbyowner Automation",
+      "duration": "36 months",
+      "stack": "Java, Selenium, Jenkins, TestNG",
+      "role": "QA Lead"
+    }
+  ],
+  "education": [
+    {
+      "degree": "MSc in Information Technology",
+      "university": "Jahangirnagar University",
+      "period": "Jan 2016 \u2013 Dec 2017",
+      "thesis": "Cloud-based Software Testing Automation"
+    },
+    {
+      "degree": "BSc in Computer Science",
+      "university": "IUBAT",
+      "period": "Jan 2011 \u2013 Dec 2014",
+      "thesis": "VAS Service Using WAP"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": {
+        "Reading": "High",
+        "Writing": "Medium",
+        "Speaking": "Medium"
+      }
+    },
+    {
+      "language": "Bengali",
+      "proficiency": "Native"
+    }
+  ],
+  "achievements": [
+    "Second Runner-up \u2013 National Hackathon by ICT Ministry",
+    "3-time Employee of the Month",
+    "Ranked top 10 test automation engineers in Bangladesh (Stack Overflow)",
+    "Winner \u2013 Hackathon by W3engineers (2017\u20132018)"
+  ],
+  "recommendations": [
+    {
+      "given_by": "Sivakumar PT",
+      "company": "BJIT (Yokogawa Client)",
+      "quote": "A.N.M Zakaria is an exceptional professional in test automation, application security, and security pentest automation. His work in Selenium, Appium, JMeter, and tools like Metasploit, Burp Suite, OWASP ZAP makes him a valuable asset for any team."
+    },
+    {
+      "given_by": "Md Saidul Islam Ziku",
+      "company": "BJIT",
+      "quote": "Zakaria is a passionate and sharp QA engineer, considered among the top ten automation engineers in our company."
+    },
+    {
+      "given_by": "Md. Nomanur Rashid",
+      "company": "W3engineers",
+      "quote": "Zakaria has extensive knowledge in QA, automation (web+API), CI/CD, and people management. He always seeks high-quality solutions and delivers excellent results."
+    },
+    {
+      "given_by": "Farjana Yeasmin Huq",
+      "company": "BJIT",
+      "quote": "Technically sound and extraordinarily talented in test automation. Zakaria is innovative and maintains high quality under pressure."
+    },
+    {
+      "given_by": "Woshikuzzaman Anik",
+      "company": "W3engineers",
+      "quote": "A tremendous QA engineer who created automation scripts that made our product more reliable. No bug escapes his attention."
+    },
+    {
+      "given_by": "Saimoom Safayet Akash",
+      "company": "W3engineers",
+      "quote": "Zakaria\u2019s attention to detail and excellence in automation make him a valuable asset to any development team."
+    },
+    {
+      "given_by": "Mir Tajmul Hossain",
+      "company": "W3engineers",
+      "quote": "Zakaria helped automate website speed reports and marketing automation. Fun-loving, professional, and highly capable QA expert."
+    }
+  ],
+  "interests": [
+    "Penetration Testing",
+    "Bug Bounty",
+    "Automation Frameworks",
+    "Tech Leadership"
+  ]
+}
