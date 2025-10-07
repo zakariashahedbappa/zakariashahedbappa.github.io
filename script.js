@@ -11,21 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Animate Sections on Scroll ---
-    const animatedElements = document.querySelectorAll('.scroll-animate');
-    if (animatedElements.length > 0) {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, { threshold: 0.1 });
-
-        animatedElements.forEach(element => {
-            observer.observe(element);
-        });
-    }
+    
 
     // --- Active Nav Link on Scroll ---
     const sections = document.querySelectorAll('main > section');
@@ -167,6 +153,38 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 parentCategory.classList.toggle('active');
             });
+        });
+    }
+
+    // --- Hamburger Menu for Mobile ---
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (hamburger && navLinks) {
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        navLinks.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
+    }
+
+    // --- Safer Scroll Animation ---
+    const cardsToAnimate = document.querySelectorAll('.card');
+    if (cardsToAnimate.length > 0) {
+        const cardObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('slide-up');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        cardsToAnimate.forEach(card => {
+            cardObserver.observe(card);
         });
     }
 });
