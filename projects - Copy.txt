@@ -1,0 +1,313 @@
+Professional Summary
+A highly accomplished and certified Senior Manager of Software Quality Assurance (SQA) with over 9 years of experience in leading QA organizations, establishing robust automation frameworks, and ensuring the quality and resilience of complex software systems.
+
+
+
+
+
+Currently serving as the Senior Manager, SQA at TechnoNext (a sister concern of US-Bangla Airlines) , you lead a large team in overseeing quality for high-volume platforms such as Foodi, Cartup, and Firsttrip.
+
+Core Expertise:
+
+Automation Mastery: Expert in designing and scaling end-to-end automation frameworks using Java, Selenium, and TestNG , and experienced with modern tools like Playwright. You pioneered Jenkins-based CI systems to empower manual testers with automation execution.
+
+
+
+
+
+
+Leadership & Scale: Proven success in managing QA teams of up to 40+ members and driving quality across high-velocity environments, contributing to 80+ major releases in previous roles.
+
+
+
+Domain Diversity: Possessing deep SQA experience across critical sectors, including High-Performance Networking (SD-WAN) (Turnium), Global Travel Meta-Search (RentByOwner.com), and complex IoT Systems (Yokogawa), where you automated over 5,000 test cases.
+
+
+
+
+
+Security & Performance: Adept in conducting API testing (REST-assured) , performance testing (Locust), and applying security principles, backed by recognized status as a published Bug Hunter on HackerOne.
+
+
+Certifications & Recognition:
+
+ISTQB Certified Tester (CTFL & CTFL-AT).
+
+
+Ranked among the Top 10 Test Automation Engineers in Bangladesh (based on Stack Overflow activity).
+
+Awarded 3-time Employee of the Month.
+
+
+Based on the information provided in your CV and portfolio, here is your consolidated job history:
+
+A.N.M Zakaria Shahed: Job History
+Role	Company	Duration
+Senior Manager, SQA (Current)	TechnoNext (Sister concern of US-Bangla Airlines)	February 2025 – Present
+SQA Manager	BJIT GROUP	April 2021 – February 2025
+Lead SQA Engineer	W3engineers	December 2016 – March 2021
+SQA Engineer	Suguna Bangladesh	January 2015 – November 2016
+
+
+Senior Manager, SQA (TechnoNext) — Core Responsibilities
+As a key leader in the Quality Assurance department, my responsibilities are focused on scaling our SQA capabilities, driving automation adoption, and ensuring the highest level of application security and quality for our major platforms:
+
+1. Strategic Leadership & Team Management
+Driving Scale: Directly responsible for managing and mentoring a high-performing SQA organization of 40+ team members across multiple, simultaneous projects and critical business units.
+
+Strategic Vision: Accountable for defining, setting, and enforcing comprehensive SQA testing strategies across the entire software development lifecycle (SDLC) to ensure quality gates are met efficiently.
+
+2. Automation & Technical Excellence
+Automation Authority: Spearheading and leading a dedicated 10-member automation team, focused on maximizing efficiency and coverage.
+
+Framework Architect: Responsible for designing and maintaining robust automation frameworks, defining best practices for test case architecture, and providing advanced troubleshooting/problem-solving support to the team.
+
+Technical Stack: Hands-on experience leading teams utilizing core tools such as Selenium, Playwright, and Java for functional automation, complemented by Locust for performance testing and Postman for API validation.
+
+3. Application Security & User Validation
+Security Champion: Leading the dedicated Penetration Testing team, ensuring proactive identification and mitigation of critical security vulnerabilities to safeguard our applications and user data.
+
+Quality Governance: Enforcing quality standards by meticulously reviewing and approving all complex test cases and test plans prior to execution.
+
+Client Advocate: Performing User Acceptance Testing (UAT) and acting as the voice of the client or end-user to ensure functional completeness and superior user experience before every production deployment.
+
+Interactive Terms for Recruiter Interest:
+
+"My mandate is to transform the QA function from a quality check into a strategic business driver. I focus on maximizing test ROI through smart automation, and I champion a security-first SQA mindset across the organization."
+
+Project : Cartup, Firsttrip, CarryBee, Foodi
+
+SQA Manager (BJIT GROUP) — Core Responsibilities and Achievements
+(April 2021 – February 2025)
+
+This role involved comprehensive technical leadership, project execution, and strategic quality governance across diverse and complex projects, notably within the Internet of Things (IoT) space.
+
+Technical & Automation Leadership
+Automation Framework Design: Led the initiative to design and develop a complex, scalable automation framework using Selenium, Java, and TestNG.
+
+Automation ROI: Achieved a significant technical milestone by converting over 4,000 manual test cases to automation, resulting in an impressive 70% automation coverage for key project suites.
+
+Future-Proofing QA: Pioneered efforts in AI-driven testing, successfully integrating artificial intelligence into the testing process and test automation workflows.
+
+Tool Expertise: Led the Automation team, providing technical direction, solving complex technical blockers, and defining the scope and nature of automated test cases.
+
+Project & Quality Governance
+Domain Focus: Directly worked on challenging IoT projects under the amnimo subsidiary of Yokogawa Electric Corporation, demonstrating expertise in a highly specialized technological domain.
+
+Quality Audits: Implemented and executed QA audits to ensure adherence to established quality standards, methodologies, and compliance requirements across all team deliverables.
+
+Test Case Review: Performed critical analysis and review of manual and automated test cases created by team members, ensuring optimal coverage, accuracy, and efficiency.
+
+Team Leadership & Development
+Team Oversight: Functioned as the overall Lead SQA Team member, coordinating efforts, managing resources, and ensuring cohesive execution across project goals.
+
+Mentorship: Provided structured training to new joiner team members, accelerating their ramp-up time and ensuring consistent quality in their contributions.
+Project: Amnimo
+
+Lead SQA Engineer (W3engineers) — Core Responsibilities and Achievements
+(December 2016 – March 2021)
+
+In this key technical leadership role, I was instrumental in driving the shift to a highly automated and comprehensive quality assurance practice for multiple projects.
+
+Automation & Technical Mastery
+Driving Automation: Achieved an outstanding automation coverage rate, converting 90% plus of all test cases to automation.
+
+Framework Implementation: Successfully designed, built, and maintained robust automation solutions using Selenium and Java integrated with TestNG.
+
+Mobile Expertise: Extended automation capabilities beyond web platforms by implementing and leading mobile test automation using Appium and Java across both Android and iOS platforms. This ensured consistent quality across all customer touchpoints.
+
+Quality & Strategy Leadership
+Team Leadership: Functioned as a technical leader and manager for a 12-member SQA team, guiding daily execution, setting technical priorities, and fostering automation proficiency.
+
+Comprehensive Test Design: Expertly responsible for both writing and reviewing test cases, with a specialized focus on generating complex negative test cases to challenge system resilience and uncover deep-seated bugs, thereby ensuring superior product stability, not just basic functionality (happy path testing).
+
+Project: rentbyowner, ternium
+
+Project: Cartup - Leading E-commerce Platform for the Bangladesh Market
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Cartup is a large-scale, comprehensive e-commerce platform and online marketplace in Bangladesh, designed to offer customers a seamless shopping experience with competitive pricing, authentic products, and reliable logistics. As the Senior Manager of SQA, my responsibility was to establish and oversee the quality strategy for the entire platform, ensuring the stability, performance, and reliability of all customer-facing and backend systems.
+
+Key SQA Achievements and Responsibilities:
+
+Established and Directed SQA Strategy: Developed and implemented a comprehensive SQA roadmap, defining the quality standards, testing methodologies (including functional, regression, performance, and security testing), and release criteria for all major platform deployments.
+
+Led Quality Gates for Critical Features: Managed the quality assurance lifecycle for core e-commerce functionalities, specifically:
+
+Secure Payment Gateways: Ensured robust and secure integration of multiple payment methods (e.g., bKash, Nagad, Credit/Debit Cards) and the Cash on Delivery (COD) workflow.
+
+Logistics & Fulfillment: Validated the accuracy of shipping fee calculations, order tracking, and integration with third-party logistics partners to guarantee the "Fast Delivery" promise.
+
+Core Marketplace Functions: Oversaw the end-to-end testing of the product listing process, inventory management synchronization, and promotional deal mechanics.
+
+Team Leadership and Process Improvement: Recruited, mentored, and led a high-performing SQA team. Introduced and enforced Agile testing practices and improved defect tracking processes, resulting in a 30% reduction in production-level critical bugs over a six-month period.
+
+Performance and Load Testing: Instituted a performance testing framework to simulate peak load scenarios (especially during major sales events), ensuring the platform could scale to handle massive concurrent user traffic without degradation in speed or reliability.
+
+Tools and Automation Implementation: Evaluated, selected, and implemented automation tools (Selenium, Playwright) to maximize test coverage and drastically reduce the time required for regression cycles.
+
+Image: images/cartup.png
+
+
+Project: amnimo - Industrial IoT (IIoT) Solutions Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Amnimo is a provider of highly reliable and robust Industrial IoT (IIoT) solutions, devices, and cloud services, with the goal of driving digital transformation by connecting physical infrastructure (sensors, machines, cameras) using IoT and AI technologies. My role involved leading the SQA function responsible for the quality assurance of mission-critical industrial hardware (gateways/routers) and their associated cloud and edge software services.
+
+Key Products & Systems (SQA Focus):
+
+Industrial Hardware (Edge & LTE Gateways/Routers): Highly robust devices designed for harsh industrial environments, including water/dust proofing, multiple SIM support, and protection against power outages.
+
+Edge and Cloud Software: Includes the Device Management System (DMS) for remote monitoring and updates, Video Management Systems (VMS) for surveillance, and the AI Edge Gateway for simultaneous recording and AI image analysis.
+
+Key SQA Achievements and Responsibilities:
+
+Established Hardware/Software Integration Testing: Developed rigorous testing protocols specifically for the IIoT environment, focusing on the seamless and reliable integration between the industrial-grade Edge Gateways (e.g., handling PoE, instantaneous power outage resilience) and the Device Management System in the cloud.
+
+Security and Robustness Verification: Prioritized SQA efforts on validating the security, stability, and robustness of the hardware and remote connection services (like remote.it), ensuring secure, two-way, P2P communication for devices operating in private industrial networks.
+
+Performance and Load Testing for Data Ingestion: Designed and managed performance testing to validate the system's ability to handle high-volume, continuous data ingestion and video streams from numerous connected IoT devices and cameras, ensuring data integrity and low-latency communication under industrial load conditions.
+
+AI and Edge Computing Quality Assurance: Established specialized test plans for the AI Edge Gateway, focusing on the accuracy and consistency of the AI image analysis algorithms at the edge. This included validating model deployment, data inference stability, and the process of edge recording.
+
+Firmware and Remote Update Quality Management: Developed and enforced strict SQA processes for the deployment and remote update of firmware and configuration files via the Device Management System, mitigating the high risk of device failure or operational downtime associated with industrial field deployments.
+
+Images: images/amnimo_yokogawa.png
+
+
+Project: CarryBee - Tech-Enabled E-commerce Logistics and Courier Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+CarryBee Express Limited is a prominent, technology-driven logistics and courier service in Bangladesh, focused on redefining last-mile delivery for E-commerce and F-commerce (Facebook commerce) businesses. As a concern of US-Bangla Airlines, the platform leverages air cargo for rapid "mid-mile" transportation and operates a complex network across all 64 districts. My role involved establishing and managing the SQA strategy for the entire integrated logistics platform.
+
+Key Systems and SQA Focus Areas:
+
+Merchant Portal/Dashboard: A key application for business partners to manage orders, track shipments, calculate rates, and handle Cash on Delivery (COD) payment settlements.
+
+Logistics Management System (LMS): The core system that manages the full delivery lifecycle: Pickup → Order Processing → Transportation → Last-Mile Delivery.
+
+Tracking and Customer-Facing Services: Real-time parcel tracking and customer communication systems.
+
+Key SQA Achievements and Responsibilities:
+
+End-to-End Delivery Lifecycle Validation: Developed and led the testing strategy for the entire supply chain, ensuring the integrity and accuracy of data flow across all four stages (Pickup, Processing, Transportation, Delivery), which is critical for Live Parcel Tracking and On-Time Delivery targets.
+
+Financial and COD Settlement Assurance: Instituted stringent SQA protocols for the Cash on Delivery (COD) and payment settlement module. This involved validating the precision of commission calculations, deduction of service fees, and the timely, secure transfer of collected funds to the merchants' bank/MFS accounts. This is a high-risk area requiring specialized financial QA.
+
+High-Volume Performance & Scalability: Managed load and stress testing to validate the platform’s capacity to process 50,000+ parcels daily and handle peak demand during E-commerce sales events without system degradation.
+
+Geolocation and Real-Time Tracking QA: Developed tests to ensure the accuracy and low latency of Live Parcel Tracking data, verifying the correct mapping and communication between the logistics system, driver apps, and the customer-facing tracking interface.
+
+Automated Reprocess Technology QA: Oversaw the quality assurance of the proprietary Automated Reprocess Technology designed to increase the Delivery Success Rate by automatically managing failed/canceled delivery attempts and subsequent returns to the merchant, ensuring high data accuracy and minimizing revenue loss for merchants.
+
+images: images/carryBee.png
+
+
+
+Project: Firsttrip - Hyper-Growth Online Travel Agency (OTA) Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Firsttrip is a hyper-growth Online Travel Agency (OTA) and a sister concern of US-Bangla Airlines, providing comprehensive travel services including Flights, Hotels, Holiday Packages, Visa Assistance, and specialized offerings (like Umrah). The platform is built on cutting-edge technology to offer seamless booking, real-time updates, and a dedicated loyalty program (FT Club), requiring world-class SQA to manage complex, dynamic, and time-sensitive travel inventory.
+
+Key SQA Challenges and Systems:
+
+Global Distribution System (GDS) and API Integration: Integrating and managing real-time data feeds from multiple airlines, GDS providers, and hotel APIs for accurate pricing and availability (the most critical part of an OTA).
+
+Dynamic Pricing and Promotional Logic: Ensuring accurate calculation and application of complex fare rules, student discounts, coupon codes, and partner-specific deals (e.g., EBL bank campaigns).
+
+FT Club Loyalty Program: The complex logic behind points earning (based on base fare, tier status), redemption, and automatic tier upgrades/downgrades.
+
+Key SQA Achievements and Responsibilities:
+
+Real-Time Inventory and Pricing Integrity: Established end-to-end integration testing with GDS and airline partners to guarantee that real-time fare searches, availability checks, and booking confirmations were instantaneous and 100% accurate, mitigating the risk of "ghost bookings" or price discrepancies.
+
+Complex Fare Rule and Promotion Validation: Developed advanced SQA strategies, including combinatorial testing, to validate the integrity of dynamic pricing, the accurate application of coupon codes (e.g., FTINT2025), and the correct calculation of discounted fares (e.g., Student Fares), ensuring compliance with strict fare policies.
+
+Loyalty Program (FT Club) Logic Testing: Directed the testing of the proprietary FT Club system. This included rigorous verification of the Point Earning/Redemption logic (1 FTP=1 BDT), tier status calculation (Silver, Gold, Platinum, Legendary based on rolling spend), and the correct application of tier benefits (e.g., service charge waivers, priority support).
+
+Payment Gateway and Policy Adherence: Oversaw SQA for secure payment processing and strict adherence to defined travel policies (Refund, Cancellation & Void Policy; ADM Policy), protecting the company from financial losses and chargebacks.
+
+Mobile App Quality Assurance: Led the functional and usability testing for the mobile application to ensure a seamless and convenient booking experience, including location-based services and real-time push notifications for itinerary changes.
+
+images: images/firsttrip.png
+
+Project: Foodi - On-Demand Food, Grocery, and Daily Needs Delivery Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Foodi is a major Food Tech platform and a fully owned concern of the US Bangla Group, specializing in on-demand delivery of food from over 1,500 restaurants, as well as groceries, pharmaceuticals, and daily essentials across Bangladesh. The platform operates via a mobile application (Android/iOS) and web portal, requiring rapid and reliable service delivery. My mandate was to lead the SQA organization, focusing on the highly sensitive areas of real-time inventory, order accuracy, and seamless delivery logistics.
+
+Key SQA Challenges and Systems:
+
+Multi-Modal Delivery: Quality assurance for three distinct streams: Food Delivery, Grocery Delivery (same-day), and Medicine Delivery, each with unique inventory and time sensitivity.
+
+Real-Time Data Integrity: Ensuring the accuracy of restaurant menus and item availability (addressing the common user complaint of ordering unavailable items).
+
+User Experience (UX) and Bug Management: Mitigating app bugs and poor customer support experiences, which were highlighted in user reviews as significant pain points.
+
+Key SQA Achievements and Responsibilities:
+
+Real-Time Inventory and Menu Synchronization QA: Implemented automated testing routines to continuously validate the synchronization between the Restaurant Partner Portal (which manages inventory/menus) and the Customer-Facing App. This was a strategic effort to reduce "item not available" failures, a critical flaw in the user experience.
+
+Order-to-Delivery Lifecycle Assurance: Designed and led end-to-end testing for the order lifecycle: Order Placement → Restaurant Acceptance → Rider Dispatch → Real-Time Tracking → Customer Delivery. Special focus was placed on the handover points to prevent incorrect item delivery and track inaccuracy.
+
+Mobile Application Performance and Stability: Instituted a comprehensive Mobile App QA program across various Android and iOS versions to identify and resolve numerous reported bugs, improving app stability and preventing negative user experiences (such as lack of an immediate order cancellation option).
+
+Rider App Quality and Geolocation Testing: Oversaw the SQA for the Foodi Rider App (operational logistics platform), ensuring reliable GPS tracking, accurate navigation instructions, and correct calculation of rider payments and delivery metrics.
+
+Promotional and Discount Logic Validation: Verified the accuracy of complex pricing logic for discounts, promotions, and partner offers, ensuring consumers were charged correctly and that the financial system recorded transactions accurately.
+
+images: images/foodi.png
+
+
+Project: RentByOwner.com - Global Vacation Rental Meta-Search Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+RentByOwner.com (RBO) is a global vacation rental meta-search platform that aggregates over 10 million listings from top Online Travel Agencies (OTAs) and direct property owners (e.g., Airbnb, Vrbo, Booking.com, HomeToGo). The primary function is to enable users to search, compare prices, and seamlessly refer them to the partner site to finalize the booking. My leadership in SQA was critical to ensuring data accuracy, real-time comparisons, and the reliability of the global meta-search engine.
+
+Key SQA Challenges and Systems:
+
+Meta-Search Data Aggregation: Testing the complex APIs and data feeds that pull dynamic availability, pricing, and property details from multiple third-party vendors.
+
+Comparison Accuracy: Ensuring that the displayed prices, amenities, and property information are correctly normalized and accurately comparable against competitors.
+
+Affiliate Link and Referral Integrity: Validating the referral journey, which sends the user from the RBO search result to the correct, active, and pre-populated booking page on the partner's site.
+
+Key SQA Achievements and Responsibilities:
+
+Cross-Platform Data Integrity Testing: Established a comprehensive test automation framework specifically for the meta-search aggregator layer. This system was designed to continuously validate that real-time pricing and availability displayed on RBO accurately matched the source data from major OTAs (Vrbo, Airbnb, etc.).
+
+Search Engine Relevance and Filtering QA: Led SQA efforts to verify the precision of the search algorithm and filtering mechanism. This included rigorously testing filters (price, number of guests, bedrooms, amenities like 'Pet Friendly' or 'Pool') to ensure results were correctly narrowed down from the 10+ Million available global listings.
+
+Referral and Link Integrity Management: Instituted critical Affiliate Link QA to eliminate broken or inaccurate referral links. This involved testing the end-to-end user path to ensure the user landed on the correct property page on the partner site with the selected dates and price pre-populated—a crucial factor for conversion and revenue.
+
+Global Geolocation and Mapping Accuracy: Verified the correctness of geographic data and mapping integrations for over 156,000+ destinations, ensuring that property locations displayed to the user were accurate and that search radius logic functioned as designed.
+
+Performance and Speed Optimization: Directed performance testing to ensure the meta-search engine returned results with low latency, even when querying multiple partner APIs concurrently, maintaining a fast and positive user experience essential for a comparison platform.
+
+images: images/rentbyowner.png
+
+
+Project: Turnium - Disaggregated SD-WAN & Technology-as-a-Service (TaaS) Platform
+Role: Senior Manager, Software Quality Assurance (SQA) (Networking/TaaS)
+Project Overview:
+Turnium Technology Group Inc. (TTGI) is a leader in Technology-as-a-Service (TaaS), providing a software-only, wholesale, and white-label SD-WAN (Software-Defined Wide Area Network) platform. The platform is a disaggregated Layer 3 solution that allows global channel partners (MSPs, Telcos, ISPs) to build, brand, and deploy their own resilient network, security, and cloud service stacks for SMEs. My SQA leadership focused on validating the platform's core network performance, security protocols, and the next-generation AI-driven features.
+
+Key SQA Challenges and Systems:
+Multi-Circuit & Sub-Second Failover: The core technical challenge was rigorously testing the proprietary networking engine to ensure sub-second failover and resilient load balancing (Flowlet, IDMPQ algorithms) across heterogeneous, aggregated connections (wireline, 4G/5G, Starlink, etc.) from multiple carriers.
+
+SD-WAN/SASE Core Security: Validating the secure Layer 3 foundation, end-to-end encryption, and the critical move toward Post-Quantum Cryptography (PQC) readiness in the SD-WAN 7.0 ("Laywire") preview.
+
+Multi-Tenant Orchestration and Scalability: Ensuring proper multi-tenancy isolation and high scalability (up to 100,000 nodes per management server) across the core nodes and the Turnium Orchestrator, which automates network configuration and provisioning.
+
+AI-Driven Performance: Designing test matrices to verify the accuracy and efficacy of AI-based dynamic traffic steering and QoS (Quality of Service) policies to ensure priority applications (e.g., VoIP, video) maintained performance under network duress.
+
+Key SQA Achievements and Responsibilities:
+Network Performance Validation: Established a dedicated Network Emulation Lab to simulate WAN degradations (latency, packet loss, jitter) and automate testing of the SD-WAN's failover and load balancing protocols under extreme stress conditions, confirming reliability metrics.
+
+"Turnium Insight" Platform QA: Led the SQA for the launch of Turnium Insight, the next-generation network analytics and management platform. This involved validating the accuracy and real-time ingestion of Layer 4-7 analytics (deep packet inspection), unified dashboard data, advanced alerting logic, and topology visualization.
+
+Software-Defined Edge Device Testing: Oversaw testing across diverse non-proprietary x86 Universal Edge Devices, bare metal, and virtualized environments (Debian, OpenSUSE), ensuring seamless "plug-and-play" deployment and consistent performance regardless of underlying hardware.
+
+Security Feature Verification (PQC Readiness): Developed security regression suites specifically to test newly integrated security features, including the preliminary validation of new cryptographic modules in preparation for Post-Quantum Cryptography standards compliance.
+
+images: images/turnium.png
