@@ -7,6 +7,90 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 800px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .close {
+            color: #aaa;
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #modal-body {
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        #modal-body img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        #modal-body pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            font-family: 'Roboto', sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Project Catalog Image Grid */
+        .image-grid img {
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .image-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .project-item {
+            text-align: center;
+        }
+
+        .project-item h4 {
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #333;
+            font-weight: 500;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -16,8 +100,7 @@
                 <li><a href="#summary">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#gallery">Project Catalog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -43,223 +126,123 @@
     <main class="container">
         <section id="summary" class="card">
             <h3>Summary</h3>
-            <p>A seasoned SQA professional with over 9 years of experience in manual testing, automation, and penetration testing. Currently working as a Senior Manager, leading a 40+ member QA team at TechnoNext (a sister concern of US-Bangla Airlines). Skilled in Selenium, Playwright, TestNG, Jenkins, SDLC/STLC, and bug bounty programs. ISTQB Certified and a published bug hunter on HackerOne.</p>
+            <p>A highly accomplished and certified Senior Manager of Software Quality Assurance (SQA) with over 11 years of experience, I specialize in leading large QA organizations and building robust automation frameworks to ensure the quality of complex software systems.</p>
+            <p>Currently, as the Senior Manager of SQA at TechnoNext (a sister concern of US-Bangla Airlines), I lead a team of 40+ professionals overseeing quality for high-volume platforms like <strong>Foodi, Cartup, Firsttrip, and CarryBee</strong>. My expertise spans diverse domains including E-commerce, IoT, and SD-WAN, with a strong focus on security and performance testing. I am an expert in end-to-end automation using tools like Selenium and Playwright, and a recognized Bug Hunter on HackerOne.</p>
         </section>
 
         <section id="experience" class="card">
             <h3>Experience</h3>
             <div class="job">
-                <h4>Senior Manager, SQA</h4>
-                <p><strong>TechnoNext (Sister concern of US-Bangla Airlines)</strong> | 2025 – Present</p>
+                <h4>Senior Manager, SQA (Current)</h4>
+                <p><strong>TechnoNext (Sister concern of US-Bangla Airlines)</strong> | February 2025 – Present</p>
                 <ul>
-                    <li>Leading and managing a QA team of over 40 members</li>
-                    <li>Overseeing QA for platforms like Foodi, Cartup, and Firsttrip</li>
-                    <li>Designing and implementing test automation frameworks using Selenium and Playwright</li>
-                    <li>Guiding penetration testing team for secure application development</li>
-                    <li>Enforcing best practices in SDLC and STLC</li>
+                    <li>Leading a 40+ member SQA organization, defining testing strategies across the SDLC.</li>
+                    <li>Overseeing quality for key platforms: Cartup, Firsttrip, CarryBee, and Foodi.</li>
+                    <li>Architecting robust automation frameworks (Selenium, Playwright, Locust).</li>
+                    <li>Championing application security and leading the Penetration Testing team.</li>
                 </ul>
             </div>
             <div class="job">
                 <h4>SQA Manager</h4>
-                <p><strong>BJIT Group</strong> | April 2021 – 2025</p>
+                <p><strong>BJIT GROUP</strong> | April 2021 – February 2025</p>
                 <ul>
-                    <li>Developed CI/CD pipelines</li>
-                    <li>Wrote and managed automation test scripts</li>
-                    <li>Conducted regression and acceptance testing</li>
-                    <li>Created QA strategy and managed releases</li>
+                    <li>Led the automation initiative, converting over 4,000 manual tests and achieving 70% coverage.</li>
+                    <li>Pioneered AI-driven testing integration into QA processes.</li>
+                    <li>Directed quality for complex IoT projects for Yokogawa's amnimo subsidiary.</li>
+                    <li>Managed QA audits, test case reviews, and team mentorship.</li>
                 </ul>
             </div>
             <div class="job">
-                <h4>QA Engineer → Lead SQA Engineer</h4>
-                <p><strong>W3engineers</strong> | Jan 2017 – Mar 2021</p>
+                <h4>Lead SQA Engineer</h4>
+                <p><strong>W3engineers</strong> | December 2016 – March 2021</p>
                 <ul>
-                    <li>Led a QA team of 12 testers</li>
-                    <li>Developed automation for 80+ major releases</li>
-                    <li>Built Jenkins-based automation infrastructure</li>
-                    <li>Conducted API automation, performance testing with Locust</li>
+                    <li>Drove automation efforts to achieve over 90% test coverage.</li>
+                    <li>Led a 12-member team and managed both web (Selenium) and mobile (Appium) automation.</li>
+                    <li>Specialized in designing complex negative test cases to ensure system resilience.</li>
+                    <li>Worked on projects like RentByOwner and Turnium.</li>
                 </ul>
             </div>
             <div class="job">
-                <h4>Jr. QA Engineer</h4>
-                <p><strong>Suguna Bangladesh Pvt Ltd</strong> | Dec 2014 – Dec 2016</p>
+                <h4>SQA Engineer</h4>
+                <p><strong>Suguna Bangladesh</strong> | January 2015 – November 2016</p>
                 <ul>
-                    <li>Performed manual testing and led QA in SCRUM environments</li>
-                    <li>Created documentation and test plans</li>
+                    <li>Performed functional, regression, and performance testing in an Agile/SCRUM environment.</li>
+                    <li>Responsible for creating test plans, test cases, and quality documentation.</li>
                 </ul>
-            </div>
-        </section>
-
-        <section id="education" class="card">
-            <h3>Education</h3>
-            <div class="education-item">
-                <h4>MSc in Information Technology</h4>
-                <p><strong>Jahangirnagar University</strong> | Jan 2016 – Dec 2017</p>
-                <p>Thesis: Cloud-based Software Testing Automation</p>
-            </div>
-            <div class="education-item">
-                <h4>BSc in Computer Science</h4>
-                <p><strong>IUBAT</strong> | Jan 2011 – Dec 2014</p>
-                <p>Thesis: VAS Service Using WAP</p>
             </div>
         </section>
 
         <section id="projects" class="card">
-            <h3>Projects</h3>
+            <h3>Featured Projects</h3>
             <div class="project">
-                <h4>Yokogawa Workflow Mobile App</h4>
-                <p><strong>Duration:</strong> 18 months</p>
-                <p><strong>Stack:</strong> Java, IoT, ReactJS, Selenium</p>
-                <p><strong>Role:</strong> Senior SQA Engineer</p>
-            </div>
-            <div class="project">
-                <h4>OneProof BtoC Mall</h4>
-                <p><strong>Duration:</strong> 8 months</p>
-                <p><strong>Stack:</strong> PHP, Laravel</p>
-                <p><strong>Role:</strong> Senior SQA Engineer</p>
+                <h4>Firsttrip - OTA Platform</h4>
+                <p><strong>Role:</strong> Senior Manager, SQA</p>
+                <p><strong>Description:</strong> Led SQA for a hyper-growth Online Travel Agency, focusing on real-time GDS integration, dynamic pricing logic, and the 'FT Club' loyalty program to ensure booking accuracy and reliability.</p>
             </div>
             <div class="project">
-                <h4>Turnium</h4>
-                <p><strong>Duration:</strong> 5 months</p>
-                <p><strong>Stack:</strong> ReactJS</p>
-                <p><strong>Role:</strong> QA Lead</p>
+                <h4>Cartup - E-commerce Marketplace</h4>
+                <p><strong>Role:</strong> Senior Manager, SQA</p>
+                <p><strong>Description:</strong> Established the quality strategy for a large-scale e-commerce platform, overseeing testing for secure payment gateways, logistics, and core marketplace functions to ensure a stable user experience.</p>
             </div>
             <div class="project">
-                <h4>F2sfund</h4>
-                <p><strong>Duration:</strong> 10 months</p>
-                <p><strong>Stack:</strong> PHP, JavaScript</p>
-                <p><strong>Role:</strong> QA Lead</p>
+                <h4>Foodi - On-Demand Delivery</h4>
+                <p><strong>Role:</strong> Senior Manager, SQA</p>
+                <p><strong>Description:</strong> Directed the QA strategy for a major food and grocery delivery app, focusing on real-time inventory synchronization, order-to-delivery lifecycle assurance, and mobile application stability.</p>
             </div>
             <div class="project">
-                <h4>Rentbyowner Automation</h4>
-                <p><strong>Duration:</strong> 36 months</p>
-                <p><strong>Stack:</strong> Java, Selenium, Jenkins, TestNG</p>
-                <p><strong>Role:</strong> QA Lead</p>
+                <h4>CarryBee - E-commerce Logistics</h4>
+                <p><strong>Role:</strong> Senior Manager, SQA</p>
+                <p><strong>Description:</strong> Managed the SQA strategy for a tech-driven courier service, validating the end-to-end delivery lifecycle, financial settlements (COD), and high-volume scalability to support 50,000+ daily parcels.</p>
             </div>
-        </section>
-
-        <section id="certifications" class="card">
-            <h3>Certifications</h3>
-            <ul>
-                <li>ISTQB Certified Tester (ASTQB, ID: 21-CTFL-01786-USA)</li>
-                <li><a href="https://www.udemy.com/certificate/UC-LJW5JCGQ/" target="_blank">Selenium WebDriver with Java</a> (Udemy)</li>
-                <li><a href="https://www.udemy.com/certificate/UC-1RPYQFLZ/" target="_blank">Software Testing and Test Plan Execution</a> (Udemy)</li>
-                <li><a href="https://www.udemy.com/certificate/UC-K8R3VHKD/" target="_blank">Understanding Docker and Using It for Selenium Automation</a> (Udemy)</li>
-            </ul>
-        </section>
-
-        <section id="bug-bounty" class="card">
-            <h3>Bug Bounty</h3>
-            <p><strong>Platforms:</strong> <a href="https://hackerone.com/zsbappa" target="_blank">hackerone.com/zsbappa</a></p>
-            <p><strong>Badges:</strong></p>
-            <ul>
-                <li>Insecticide (First resolved report)</li>
-                <li>TrailBlazer (First to report vulnerability)</li>
-                <li>Patient (Waited 6+ months for resolution)</li>
-                <li>Bounty Hunter (First bounty received)</li>
-                <li>Publish or Perish (Public disclosure of vulnerability)</li>
-            </ul>
-        </section>
-
-        <section id="skills" class="card">
-            <h3>Technical Skills</h3>
-            <div class="skills-grid">
-                <span>Selenium</span>
-                <span>Playwright</span>
-                <span>TestNG</span>
-                <span>Jenkins</span>
-                <span>Java</span>
-                <span>Python</span>
-                <span>REST-assured</span>
-                <span>Cucumber</span>
-                <span>ZAP</span>
-                <span>Docker</span>
-                <span>Linux</span>
-                <span>Git</span>
-                <span>Agile / Scrum</span>
-                <span>Locust</span>
+            <div class="project">
+                <h4>amnimo - Industrial IoT Platform</h4>
+                <p><strong>Role:</strong> SQA Manager</p>
+                <p><strong>Description:</strong> Led quality assurance for Yokogawa's IIoT platform, focusing on mission-critical hardware/software integration, security of remote connections, and performance of data ingestion from IoT devices.</p>
             </div>
-        </section>
-
-        <section id="languages" class="card">
-            <h3>Languages</h3>
-            <div class="language">
-                <h4>English</h4>
-                <p>Reading: High, Writing: Medium, Speaking: Medium</p>
+            <div class="project">
+                <h4>Turnium - SD-WAN Platform</h4>
+                <p><strong>Role:</strong> Lead SQA Engineer</p>
+                <p><strong>Description:</strong> Validated a software-only SD-WAN platform, focusing on core network performance, sub-second failover, multi-tenant orchestration, and next-generation AI-driven traffic steering features.</p>
             </div>
-            <div class="language">
-                <h4>Bengali</h4>
-                <p>Native</p>
+             <div class="project">
+                <h4>RentByOwner.com - Meta-Search Engine</h4>
+                <p><strong>Role:</strong> Lead SQA Engineer</p>
+                <p><strong>Description:</strong> Led SQA for a global vacation rental meta-search engine, ensuring data integrity from partners like Airbnb/Vrbo, search relevance, and affiliate link accuracy for over 10 million listings.</p>
             </div>
-        </section>
-
-        <section id="achievements" class="card">
-            <h3>Achievements</h3>
-            <ul>
-                <li>Second Runner-up – National Hackathon by ICT Ministry</li>
-                <li>3-time Employee of the Month</li>
-                <li>Ranked top 10 test automation engineers in Bangladesh (Stack Overflow)</li>
-                <li>Winner – Hackathon by W3engineers (2017–2018)</li>
-            </ul>
         </section>
 
         <section id="gallery" class="card">
-            <h3>Gallery</h3>
+            <h3>Project Catalog</h3>
             <div class="image-grid">
-                <img src="https://via.placeholder.com/300x200?text=Image+1" alt="Placeholder Image 1">
-                <img src="https://via.placeholder.com/300x200?text=Image+2" alt="Placeholder Image 2">
-                <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Placeholder Image 3">
-                <img src="https://via.placeholder.com/300x200?text=Image+4" alt="Placeholder Image 4">
-                <img src="https://via.placeholder.com/300x200?text=Image+5" alt="Placeholder Image 5">
-                <img src="https://via.placeholder.com/300x200?text=Image+6" alt="Placeholder Image 6">
-            </div>
-        </section>
-
-        <section id="recommendations" class="card">
-            <h3>Recommendations</h3>
-            <div class="slider-container">
-                <div class="recommendation-slider">
-                    <div class="recommendation">
-                        <p>"A.N.M Zakaria is an exceptional professional in test automation, application security, and security pentest automation. His work in Selenium, Appium, JMeter, and tools like Metasploit, Burp Suite, OWASP ZAP makes him a valuable asset for any team."</p>
-                        <p><strong>- Sivakumar PT, BJIT (Yokogawa Client)</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"Zakaria is a passionate and sharp QA engineer, considered among the top ten automation engineers in our company."</p>
-                        <p><strong>- Md Saidul Islam Ziku, BJIT</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"Zakaria has extensive knowledge in QA, automation (web+API), CI/CD, and people management. He always seeks high-quality solutions and delivers excellent results."</p>
-                        <p><strong>- Md. Nomanur Rashid, W3engineers</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"Technically sound and extraordinarily talented in test automation. Zakaria is innovative and maintains high quality under pressure."</p>
-                        <p><strong>- Farjana Yeasmin Huq, BJIT</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"A tremendous QA engineer who created automation scripts that made our product more reliable. No bug escapes his attention."</p>
-                        <p><strong>- Woshikuzzaman Anik, W3engineers</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"Zakaria’s attention to detail and excellence in automation make him a valuable asset to any development team."</p>
-                        <p><strong>- Saimoom Safayet Akash, W3engineers</strong></p>
-                    </div>
-                    <div class="recommendation">
-                        <p>"Zakaria helped automate website speed reports and marketing automation. Fun-loving, professional, and highly capable QA expert."</p>
-                        <p><strong>- Mir Tajmul Hossain, W3engineers</strong></p>
-                    </div>
+                <div class="project-item">
+                    <img src="images/cartup.png" alt="Cartup Project" data-project="cartup">
+                    <h4>Cartup</h4>
                 </div>
-                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                <div class="project-item">
+                    <img src="images/amnimo_yokogawa.png" alt="Amnimo Project" data-project="amnimo">
+                    <h4>Amnimo</h4>
+                </div>
+                <div class="project-item">
+                    <img src="images/carryBee.png" alt="CarryBee Project" data-project="carrybee">
+                    <h4>CarryBee</h4>
+                </div>
+                <div class="project-item">
+                    <img src="images/firsttrip.png" alt="Firsttrip Project" data-project="firsttrip">
+                    <h4>Firsttrip</h4>
+                </div>
+                <div class="project-item">
+                    <img src="images/foodi.png" alt="Foodi Project" data-project="foodi">
+                    <h4>Foodi</h4>
+                </div>
+                <div class="project-item">
+                    <img src="images/rentbyowner.png" alt="RentByOwner Project" data-project="rentbyowner">
+                    <h4>RentByOwner</h4>
+                </div>
+                <div class="project-item">
+                    <img src="images/turnium.png" alt="Turnium Project" data-project="turnium">
+                    <h4>Turnium</h4>
+                </div>
             </div>
-        </section>
-
-        <section id="interests" class="card">
-            <h3>Interests</h3>
-            <ul>
-                <li>Penetration Testing</li>
-                <li>Bug Bounty</li>
-                <li>Automation Frameworks</li>
-                <li>Tech Leadership</li>
-            </ul>
         </section>
 
         <section id="contact" class="card">
@@ -273,6 +256,122 @@
                 <a href="https://hackerone.com/zsbappa" target="_blank"><i class="fab fa-hacker-news"></i> HackerOne</a>
             </div>
         </section>
+
+        <!-- The Modal -->
+        <div id="projectModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <!-- Hidden project details -->
+        <div id="project-details" style="display: none;">
+            <div data-project="cartup">
+<pre>
+Project: Cartup - Leading E-commerce Platform for the Bangladesh Market
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Cartup is a large-scale, comprehensive e-commerce platform and online marketplace in Bangladesh, designed to offer customers a seamless shopping experience with competitive pricing, authentic products, and reliable logistics. As the Senior Manager of SQA, my responsibility was to establish and oversee the quality strategy for the entire platform, ensuring the stability, performance, and reliability of all customer-facing and backend systems.
+
+Key SQA Achievements and Responsibilities:
+- Established and Directed SQA Strategy
+- Led Quality Gates for Critical Features (Secure Payment Gateways, Logistics & Fulfillment, Core Marketplace Functions)
+- Team Leadership and Process Improvement (30% reduction in critical bugs)
+- Performance and Load Testing
+- Tools and Automation Implementation (Selenium, Playwright)
+</pre>
+            </div>
+            <div data-project="amnimo">
+<pre>
+Project: amnimo - Industrial IoT (IIoT) Solutions Platform
+Role: SQA Manager
+Project Overview:
+Amnimo is a provider of highly reliable Industrial IoT (IIoT) solutions. My role involved leading the SQA function for mission-critical industrial hardware (gateways/routers) and their associated cloud and edge software services.
+
+Key SQA Achievements and Responsibilities:
+- Established Hardware/Software Integration Testing for IIoT environment.
+- Security and Robustness Verification for remote connection services.
+- Performance and Load Testing for high-volume data ingestion and video streams.
+- AI and Edge Computing Quality Assurance for the AI Edge Gateway.
+- Firmware and Remote Update Quality Management via the Device Management System.
+</pre>
+            </div>
+            <div data-project="carrybee">
+<pre>
+Project: CarryBee - Tech-Enabled E-commerce Logistics and Courier Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+CarryBee Express is a technology-driven logistics and courier service in Bangladesh. My role involved establishing and managing the SQA strategy for the entire integrated logistics platform, which handles over 50,000 parcels daily.
+
+Key SQA Achievements and Responsibilities:
+- End-to-End Delivery Lifecycle Validation (Pickup, Processing, Transportation, Delivery).
+- Financial and COD Settlement Assurance for merchant payments.
+- High-Volume Performance & Scalability testing.
+- Geolocation and Real-Time Tracking QA.
+- Automated Reprocess Technology QA to increase delivery success rate.
+</pre>
+            </div>
+            <div data-project="firsttrip">
+<pre>
+Project: Firsttrip - Hyper-Growth Online Travel Agency (OTA) Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Firsttrip is a hyper-growth OTA and a sister concern of US-Bangla Airlines. My role required world-class SQA to manage complex, dynamic, and time-sensitive travel inventory.
+
+Key SQA Achievements and Responsibilities:
+- Real-Time Inventory and Pricing Integrity with GDS and airline partners.
+- Complex Fare Rule and Promotion Validation (combinatorial testing for coupons, discounts).
+- Loyalty Program (FT Club) Logic Testing for point earning/redemption.
+- Payment Gateway and Policy Adherence to prevent financial loss.
+- Mobile App Quality Assurance for a seamless booking experience.
+</pre>
+            </div>
+            <div data-project="foodi">
+<pre>
+Project: Foodi - On-Demand Food, Grocery, and Daily Needs Delivery Platform
+Role: Senior Manager, Software Quality Assurance (SQA)
+Project Overview:
+Foodi is a major Food Tech platform specializing in on-demand delivery. My mandate was to lead the SQA organization, focusing on real-time inventory, order accuracy, and seamless delivery logistics.
+
+Key SQA Achievements and Responsibilities:
+- Real-Time Inventory and Menu Synchronization QA to reduce "item not available" failures.
+- Order-to-Delivery Lifecycle Assurance.
+- Mobile Application Performance and Stability across Android and iOS.
+- Rider App Quality and Geolocation Testing.
+- Promotional and Discount Logic Validation.
+</pre>
+            </div>
+            <div data-project="rentbyowner">
+<pre>
+Project: RentByOwner.com - Global Vacation Rental Meta-Search Platform
+Role: Lead SQA Engineer
+Project Overview:
+RentByOwner.com (RBO) is a global vacation rental meta-search platform aggregating over 10 million listings from partners like Airbnb, Vrbo, and Booking.com. My SQA leadership was critical to ensuring data accuracy and reliability.
+
+Key SQA Achievements and Responsibilities:
+- Cross-Platform Data Integrity Testing for the meta-search aggregator layer.
+- Search Engine Relevance and Filtering QA for 10+ Million global listings.
+- Referral and Link Integrity Management to ensure conversion.
+- Global Geolocation and Mapping Accuracy for 156,000+ destinations.
+- Performance and Speed Optimization for the meta-search engine.
+</pre>
+            </div>
+            <div data-project="turnium">
+<pre>
+Project: Turnium - Disaggregated SD-WAN & Technology-as-a-Service (TaaS) Platform
+Role: Lead SQA Engineer
+Project Overview:
+Turnium provides a software-only, white-label SD-WAN platform. My SQA leadership focused on validating the platform's core network performance, security, and next-generation AI-driven features.
+
+Key SQA Achievements and Responsibilities:
+- Network Performance Validation in a dedicated Network Emulation Lab.
+- "Turnium Insight" Platform QA for next-gen network analytics.
+- Software-Defined Edge Device Testing across diverse hardware.
+- Security Feature Verification, including readiness for Post-Quantum Cryptography.
+</pre>
+            </div>
+        </div>
     </main>
 
     <footer>
