@@ -7,90 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0,0,0,0.6);
-            padding-top: 60px;
-        }
-
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 800px;
-            border-radius: 8px;
-            position: relative;
-        }
-
-        .close {
-            color: #aaa;
-            position: absolute;
-            top: 10px;
-            right: 25px;
-            font-size: 35px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        #modal-body {
-            max-height: 70vh;
-            overflow-y: auto;
-        }
-
-        #modal-body img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 15px;
-        }
-
-        #modal-body pre {
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            font-family: 'Roboto', sans-serif;
-            font-size: 0.9rem;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        /* Project Catalog Image Grid */
-        .image-grid img {
-            cursor: pointer;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .image-grid img:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        .project-item {
-            text-align: center;
-        }
-
-        .project-item h4 {
-            margin-top: 10px;
-            font-size: 1rem;
-            color: #333;
-            font-weight: 500;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar">
@@ -101,6 +17,7 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#gallery">Project Catalog</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -112,6 +29,10 @@
             <h1 id="name">A.N.M Zakaria Shahed</h1>
             <h2 id="title">Senior Manager, Software Quality Assurance</h2>
             <p id="location">Dhaka, Bangladesh</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
             <div class="social-links">
                 <a href="mailto:zsbappa.ju@gmail.com"><i class="fas fa-envelope"></i></a>
                 <a href="tel:+8801911690980"><i class="fas fa-phone"></i></a>
@@ -124,13 +45,13 @@
     </header>
 
     <main class="container">
-        <section id="summary" class="card">
+        <section id="summary" class="card scroll-animate">
             <h3>Summary</h3>
             <p>A highly accomplished and certified Senior Manager of Software Quality Assurance (SQA) with over 11 years of experience, I specialize in leading large QA organizations and building robust automation frameworks to ensure the quality of complex software systems.</p>
             <p>Currently, as the Senior Manager of SQA at TechnoNext (a sister concern of US-Bangla Airlines), I lead a team of 40+ professionals overseeing quality for high-volume platforms like <strong>Foodi, Cartup, Firsttrip, and CarryBee</strong>. My expertise spans diverse domains including E-commerce, IoT, and SD-WAN, with a strong focus on security and performance testing. I am an expert in end-to-end automation using tools like Selenium and Playwright, and a recognized Bug Hunter on HackerOne.</p>
         </section>
 
-        <section id="experience" class="card">
+        <section id="experience" class="card scroll-animate">
             <h3>Experience</h3>
             <div class="job">
                 <h4>Senior Manager, SQA (Current)</h4>
@@ -145,6 +66,10 @@
             <div class="job">
                 <h4>SQA Manager</h4>
                 <p><strong>BJIT GROUP</strong> | April 2021 – February 2025</p>
+                <div class="timeline">
+                    <p><strong>2022:</strong> Promoted to SQA Manager</p>
+                    <p><strong>2021:</strong> Joined as Senior SQA Engineer</p>
+                </div>
                 <ul>
                     <li>Led the automation initiative, converting over 4,000 manual tests and achieving 70% coverage.</li>
                     <li>Pioneered AI-driven testing integration into QA processes.</li>
@@ -155,6 +80,11 @@
             <div class="job">
                 <h4>Lead SQA Engineer</h4>
                 <p><strong>W3engineers</strong> | December 2016 – March 2021</p>
+                <div class="timeline">
+                    <p><strong>2020:</strong> Promoted to Lead SQA Engineer</p>
+                    <p><strong>2019:</strong> Promoted to Senior SQA Engineer</p>
+                    <p><strong>2016:</strong> Joined as Junior SQA Engineer</p>
+                </div>
                 <ul>
                     <li>Drove automation efforts to achieve over 90% test coverage.</li>
                     <li>Led a 12-member team and managed both web (Selenium) and mobile (Appium) automation.</li>
@@ -172,7 +102,21 @@
             </div>
         </section>
 
-        <section id="projects" class="card">
+        <section id="education" class="card scroll-animate">
+            <h3>Education</h3>
+            <div class="education-item">
+                <h4>MSc in Information Technology</h4>
+                <p><strong>Jahangirnagar University</strong> | Jan 2016 – Dec 2017</p>
+                <p>Thesis: Cloud-based Software Testing Automation</p>
+            </div>
+            <div class="education-item">
+                <h4>BSc in Computer Science</h4>
+                <p><strong>IUBAT</strong> | Jan 2011 – Dec 2014</p>
+                <p>Thesis: VAS Service Using WAP</p>
+            </div>
+        </section>
+
+        <section id="projects" class="card scroll-animate">
             <h3>Featured Projects</h3>
             <div class="project">
                 <h4>Firsttrip - OTA Platform</h4>
@@ -211,7 +155,7 @@
             </div>
         </section>
 
-        <section id="gallery" class="card">
+        <section id="gallery" class="card scroll-animate">
             <h3>Project Catalog</h3>
             <div class="image-grid">
                 <div class="project-item">
@@ -245,16 +189,111 @@
             </div>
         </section>
 
-        <section id="contact" class="card">
+        <section id="certifications" class="card scroll-animate">
+            <h3>Certifications</h3>
+            <ul>
+                <li>ISTQB Certified Tester (ASTQB, ID: 21-CTFL-01786-USA)</li>
+                <li><a href="https://www.udemy.com/certificate/UC-LJW5JCGQ/" target="_blank">Selenium WebDriver with Java</a> (Udemy)</li>
+                <li><a href="https://www.udemy.com/certificate/UC-1RPYQFLZ/" target="_blank">Software Testing and Test Plan Execution</a> (Udemy)</li>
+                <li><a href="https://www.udemy.com/certificate/UC-K8R3VHKD/" target="_blank">Understanding Docker and Using It for Selenium Automation</a> (Udemy)</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="card scroll-animate">
+            <h3>Technical Skills</h3>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Test Automation</h4>
+                    <div class="skills-grid">
+                        <span>Java</span>
+                        <span>Python</span>
+                        <span>Selenium</span>
+                        <span>Playwright</span>
+                        <span>Appium</span>
+                        <span>TestNG</span>
+                        <span>Cucumber</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">API & Performance</h4>
+                    <div class="skills-grid">
+                        <span>REST-assured</span>
+                        <span>Postman</span>
+                        <span>Locust</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Security</h4>
+                    <div class="skills-grid">
+                        <span>Penetration Testing</span>
+                        <span>OWASP ZAP</span>
+                        <span>Bug Bounty</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">CI/CD & DevOps</h4>
+                    <div class="skills-grid">
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4 class="skill-category-title">Platforms & Methodologies</h4>
+                    <div class="skills-grid">
+                        <span>Agile/Scrum</span>
+                        <span>SDLC/STLC</span>
+                        <span>IoT</span>
+                        <span>SD-WAN</span>
+                        <span>Android/iOS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="card scroll-animate">
+            <h3>Recommendations</h3>
+            <div class="slider-container">
+                <div class="recommendation-slider">
+                    <div class="recommendation">
+                        <p>"A.N.M Zakaria is an exceptional professional in test automation, application security, and security pentest automation. His work in Selenium, Appium, JMeter, and tools like Metasploit, Burp Suite, OWASP ZAP makes him a valuable asset for any team."</p>
+                        <p><strong>- Sivakumar PT, BJIT (Yokogawa Client)</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"Zakaria is a passionate and sharp QA engineer, considered among the top ten automation engineers in our company."</p>
+                        <p><strong>- Md Saidul Islam Ziku, BJIT</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"Zakaria has extensive knowledge in QA, automation (web+API), CI/CD, and people management. He always seeks high-quality solutions and delivers excellent results."</p>
+                        <p><strong>- Md. Nomanur Rashid, W3engineers</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"Technically sound and extraordinarily talented in test automation. Zakaria is innovative and maintains high quality under pressure."</p>
+                        <p><strong>- Farjana Yeasmin Huq, BJIT</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"A tremendous QA engineer who created automation scripts that made our product more reliable. No bug escapes his attention."</p>
+                        <p><strong>- Woshikuzzaman Anik, W3engineers</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"Zakaria’s attention to detail and excellence in automation make him a valuable asset to any development team."</p>
+                        <p><strong>- Saimoom Safayet Akash, W3engineers</strong></p>
+                    </div>
+                    <div class="recommendation">
+                        <p>"Zakaria helped automate website speed reports and marketing automation. Fun-loving, professional, and highly capable QA expert."</p>
+                        <p><strong>- Mir Tajmul Hossain, W3engineers</strong></p>
+                    </div>
+                </div>
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="contact" class="card scroll-animate">
             <h3>Contact Me</h3>
             <p>Feel free to reach out to me via email or connect on social media.</p>
             <p><i class="fas fa-envelope"></i> Email: <a href="mailto:zsbappa.ju@gmail.com">zsbappa.ju@gmail.com</a></p>
             <p><i class="fas fa-phone"></i> Phone: <a href="tel:+8801911690980">+8801911690980</a></p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/zsbappa/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com/zsbappa" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://hackerone.com/zsbappa" target="_blank"><i class="fab fa-hacker-news"></i> HackerOne</a>
-            </div>
         </section>
 
         <!-- The Modal -->
